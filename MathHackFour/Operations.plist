@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Quick Square</key>
+	<string>Multiply first digit by itself +1, put 25 on the end. 35 x 35 = 1225</string>
+	<key>4 Times</key>
+	<string>Double the number, then double again. 36 x 4 = 72 x 2 = 144</string>
+	<key>5 Times</key>
+	<string>Half the number. If the result is a whole number, add a 0 to the end. If not, ignore the remainder and add a 5 to the end.</string>
+	<key>9 Times</key>
+	<string>Hold out ten fingers, drop the corresponding finger of the number you&apos;re multiplying. The fingers left to the left are the tens digit, and on the right are the ones.</string>
+	<key>11 Times</key>
+	<string>Add two digits together, insert answer between them. 21 x 11 = 231</string>
+	<key>15 Times</key>
+	<string>Mutliply by 10, then add 5 times the original number.</string>
+	<key>Divide by 5</key>
+	<string>Double the number, move the decimal point to the left. 87 / 5 = 17.4 </string>
+	<key>1000 Minus</key>
+	<string>Starting from the left, subtract all digits from 9, bar the last one. 1000 - 345 = [9-3][9-4][10-5] = 655</string>
+</dict>
+</plist>

@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B55EDB5315B271F0009CFADA /* HintView.m in Sources */ = {isa = PBXBuildFile; fileRef = B55EDB5215B271F0009CFADA /* HintView.m */; };
+		B55EDB5615B27273009CFADA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55EDB5515B27273009CFADA /* QuartzCore.framework */; };
+		B55EDB5815B43790009CFADA /* Operations.plist in Resources */ = {isa = PBXBuildFile; fileRef = B55EDB5715B43790009CFADA /* Operations.plist */; };
+		B55EDB6115B80E5C009CFADA /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = B55EDB6015B80E5C009CFADA /* button2.png */; };
+		B55EDBDA15BFB83F009CFADA /* UIGlossyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B55EDBD915BFB83F009CFADA /* UIGlossyButton.m */; };
+		B55EDBDE15BFBA33009CFADA /* UIView+LayerEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = B55EDBDD15BFBA33009CFADA /* UIView+LayerEffects.m */; };
+		B5CA699615A93761001ED31C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5CA699515A93761001ED31C /* UIKit.framework */; };
+		B5CA699815A93761001ED31C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5CA699715A93761001ED31C /* Foundation.framework */; };
+		B5CA699A15A93761001ED31C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5CA699915A93761001ED31C /* CoreGraphics.framework */; };
+		B5CA69A015A93761001ED31C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5CA699E15A93761001ED31C /* InfoPlist.strings */; };
+		B5CA69A215A93761001ED31C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69A115A93761001ED31C /* main.m */; };
+		B5CA69A615A93761001ED31C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69A515A93761001ED31C /* AppDelegate.m */; };
+		B5CA69A915A93761001ED31C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5CA69A715A93761001ED31C /* MainStoryboard.storyboard */; };
+		B5CA69AC15A93761001ED31C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69AB15A93761001ED31C /* ViewController.m */; };
+		B5CA69B415A938AF001ED31C /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69B315A938AF001ED31C /* MenuViewController.m */; };
+		B5CA69BB15A9648B001ED31C /* OperationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69BA15A9648B001ED31C /* OperationsViewController.m */; };
+		B5CA69BE15A96D40001ED31C /* ProblemGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69BD15A96D40001ED31C /* ProblemGenerator.m */; };
+		B5CA69ED15A993BA001ED31C /* _DDFunctionContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69C115A993BA001ED31C /* _DDFunctionContainer.m */; };
+		B5CA69EE15A993BA001ED31C /* _DDFunctionExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69C315A993BA001ED31C /* _DDFunctionExpression.m */; };
+		B5CA69EF15A993BA001ED31C /* _DDFunctionTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69C515A993BA001ED31C /* _DDFunctionTerm.m */; };
+		B5CA69F015A993BA001ED31C /* _DDFunctionUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69C715A993BA001ED31C /* _DDFunctionUtilities.m */; };
+		B5CA69F115A993BA001ED31C /* _DDGroupTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69C915A993BA001ED31C /* _DDGroupTerm.m */; };
+		B5CA69F215A993BA001ED31C /* _DDNumberExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69CB15A993BA001ED31C /* _DDNumberExpression.m */; };
+		B5CA69F315A993BA001ED31C /* _DDNumberTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69CD15A993BA001ED31C /* _DDNumberTerm.m */; };
+		B5CA69F415A993BA001ED31C /* _DDOperatorInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69CF15A993BA001ED31C /* _DDOperatorInfo.m */; };
+		B5CA69F515A993BA001ED31C /* _DDOperatorTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69D115A993BA001ED31C /* _DDOperatorTerm.m */; };
+		B5CA69F615A993BA001ED31C /* _DDParserTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69D315A993BA001ED31C /* _DDParserTerm.m */; };
+		B5CA69F715A993BA001ED31C /* _DDRewriteRule.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69D515A993BA001ED31C /* _DDRewriteRule.m */; };
+		B5CA69F815A993BA001ED31C /* _DDVariableExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69D715A993BA001ED31C /* _DDVariableExpression.m */; };
+		B5CA69F915A993BA001ED31C /* _DDVariableTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69D915A993BA001ED31C /* _DDVariableTerm.m */; };
+		B5CA69FA15A993BA001ED31C /* DDExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69DB15A993BA001ED31C /* DDExpression.m */; };
+		B5CA69FB15A993BA001ED31C /* DDMathEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69DE15A993BA001ED31C /* DDMathEvaluator.m */; };
+		B5CA69FC15A993BA001ED31C /* DDMathStringToken.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69E215A993BA001ED31C /* DDMathStringToken.m */; };
+		B5CA69FD15A993BA001ED31C /* DDMathStringTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69E415A993BA001ED31C /* DDMathStringTokenizer.m */; };
+		B5CA69FE15A993BA001ED31C /* DDParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69E615A993BA001ED31C /* DDParser.m */; };
+		B5CA69FF15A993BA001ED31C /* DDParserTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69E815A993BA001ED31C /* DDParserTypes.m */; };
+		B5CA6A0015A993BA001ED31C /* DDTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69EA15A993BA001ED31C /* DDTypes.m */; };
+		B5CA6A0115A993BA001ED31C /* NSString+DDMathParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA69EC15A993BA001ED31C /* NSString+DDMathParsing.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B55EDB5115B271F0009CFADA /* HintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HintView.h; sourceTree = "<group>"; };
+		B55EDB5215B271F0009CFADA /* HintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HintView.m; sourceTree = "<group>"; };
+		B55EDB5515B27273009CFADA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B55EDB5715B43790009CFADA /* Operations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Operations.plist; sourceTree = "<group>"; };
+		B55EDB6015B80E5C009CFADA /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2.png; sourceTree = "<group>"; };
+		B55EDBD815BFB83F009CFADA /* UIGlossyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGlossyButton.h; sourceTree = "<group>"; };
+		B55EDBD915BFB83F009CFADA /* UIGlossyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIGlossyButton.m; sourceTree = "<group>"; };
+		B55EDBDC15BFBA33009CFADA /* UIView+LayerEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayerEffects.h"; sourceTree = "<group>"; };
+		B55EDBDD15BFBA33009CFADA /* UIView+LayerEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayerEffects.m"; sourceTree = "<group>"; };
+		B5CA699115A93761001ED31C /* MathHackFour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathHackFour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5CA699515A93761001ED31C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B5CA699715A93761001ED31C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5CA699915A93761001ED31C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B5CA699D15A93761001ED31C /* MathHackFour-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MathHackFour-Info.plist"; sourceTree = "<group>"; };
+		B5CA699F15A93761001ED31C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5CA69A115A93761001ED31C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5CA69A315A93761001ED31C /* MathHackFour-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MathHackFour-Prefix.pch"; sourceTree = "<group>"; };
+		B5CA69A415A93761001ED31C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5CA69A515A93761001ED31C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5CA69A815A93761001ED31C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B5CA69AA15A93761001ED31C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B5CA69AB15A93761001ED31C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5CA69B215A938AF001ED31C /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		B5CA69B315A938AF001ED31C /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		B5CA69B915A9648B001ED31C /* OperationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperationsViewController.h; path = ../OperationsViewController.h; sourceTree = "<group>"; };
+		B5CA69BA15A9648B001ED31C /* OperationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OperationsViewController.m; path = ../OperationsViewController.m; sourceTree = "<group>"; };
+		B5CA69BC15A96D40001ED31C /* ProblemGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProblemGenerator.h; sourceTree = "<group>"; };
+		B5CA69BD15A96D40001ED31C /* ProblemGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProblemGenerator.m; sourceTree = "<group>"; };
+		B5CA69C015A993BA001ED31C /* _DDFunctionContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDFunctionContainer.h; sourceTree = "<group>"; };
+		B5CA69C115A993BA001ED31C /* _DDFunctionContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDFunctionContainer.m; sourceTree = "<group>"; };
+		B5CA69C215A993BA001ED31C /* _DDFunctionExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDFunctionExpression.h; sourceTree = "<group>"; };
+		B5CA69C315A993BA001ED31C /* _DDFunctionExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDFunctionExpression.m; sourceTree = "<group>"; };
+		B5CA69C415A993BA001ED31C /* _DDFunctionTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDFunctionTerm.h; sourceTree = "<group>"; };
+		B5CA69C515A993BA001ED31C /* _DDFunctionTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDFunctionTerm.m; sourceTree = "<group>"; };
+		B5CA69C615A993BA001ED31C /* _DDFunctionUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDFunctionUtilities.h; sourceTree = "<group>"; };
+		B5CA69C715A993BA001ED31C /* _DDFunctionUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDFunctionUtilities.m; sourceTree = "<group>"; };
+		B5CA69C815A993BA001ED31C /* _DDGroupTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDGroupTerm.h; sourceTree = "<group>"; };
+		B5CA69C915A993BA001ED31C /* _DDGroupTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDGroupTerm.m; sourceTree = "<group>"; };
+		B5CA69CA15A993BA001ED31C /* _DDNumberExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDNumberExpression.h; sourceTree = "<group>"; };
+		B5CA69CB15A993BA001ED31C /* _DDNumberExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDNumberExpression.m; sourceTree = "<group>"; };
+		B5CA69CC15A993BA001ED31C /* _DDNumberTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDNumberTerm.h; sourceTree = "<group>"; };
+		B5CA69CD15A993BA001ED31C /* _DDNumberTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDNumberTerm.m; sourceTree = "<group>"; };
+		B5CA69CE15A993BA001ED31C /* _DDOperatorInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDOperatorInfo.h; sourceTree = "<group>"; };
+		B5CA69CF15A993BA001ED31C /* _DDOperatorInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDOperatorInfo.m; sourceTree = "<group>"; };
+		B5CA69D015A993BA001ED31C /* _DDOperatorTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDOperatorTerm.h; sourceTree = "<group>"; };
+		B5CA69D115A993BA001ED31C /* _DDOperatorTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDOperatorTerm.m; sourceTree = "<group>"; };
+		B5CA69D215A993BA001ED31C /* _DDParserTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDParserTerm.h; sourceTree = "<group>"; };
+		B5CA69D315A993BA001ED31C /* _DDParserTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDParserTerm.m; sourceTree = "<group>"; };
+		B5CA69D415A993BA001ED31C /* _DDRewriteRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDRewriteRule.h; sourceTree = "<group>"; };
+		B5CA69D515A993BA001ED31C /* _DDRewriteRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDRewriteRule.m; sourceTree = "<group>"; };
+		B5CA69D615A993BA001ED31C /* _DDVariableExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDVariableExpression.h; sourceTree = "<group>"; };
+		B5CA69D715A993BA001ED31C /* _DDVariableExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDVariableExpression.m; sourceTree = "<group>"; };
+		B5CA69D815A993BA001ED31C /* _DDVariableTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DDVariableTerm.h; sourceTree = "<group>"; };
+		B5CA69D915A993BA001ED31C /* _DDVariableTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DDVariableTerm.m; sourceTree = "<group>"; };
+		B5CA69DA15A993BA001ED31C /* DDExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDExpression.h; sourceTree = "<group>"; };
+		B5CA69DB15A993BA001ED31C /* DDExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDExpression.m; sourceTree = "<group>"; };
+		B5CA69DC15A993BA001ED31C /* DDMathEvaluator+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDMathEvaluator+Private.h"; sourceTree = "<group>"; };
+		B5CA69DD15A993BA001ED31C /* DDMathEvaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMathEvaluator.h; sourceTree = "<group>"; };
+		B5CA69DE15A993BA001ED31C /* DDMathEvaluator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMathEvaluator.m; sourceTree = "<group>"; };
+		B5CA69DF15A993BA001ED31C /* DDMathParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMathParser.h; sourceTree = "<group>"; };
+		B5CA69E015A993BA001ED31C /* DDMathParserMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMathParserMacros.h; sourceTree = "<group>"; };
+		B5CA69E115A993BA001ED31C /* DDMathStringToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMathStringToken.h; sourceTree = "<group>"; };
+		B5CA69E215A993BA001ED31C /* DDMathStringToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMathStringToken.m; sourceTree = "<group>"; };
+		B5CA69E315A993BA001ED31C /* DDMathStringTokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMathStringTokenizer.h; sourceTree = "<group>"; };
+		B5CA69E415A993BA001ED31C /* DDMathStringTokenizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMathStringTokenizer.m; sourceTree = "<group>"; };
+		B5CA69E515A993BA001ED31C /* DDParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDParser.h; sourceTree = "<group>"; };
+		B5CA69E615A993BA001ED31C /* DDParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDParser.m; sourceTree = "<group>"; };
+		B5CA69E715A993BA001ED31C /* DDParserTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDParserTypes.h; sourceTree = "<group>"; };
+		B5CA69E815A993BA001ED31C /* DDParserTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDParserTypes.m; sourceTree = "<group>"; };
+		B5CA69E915A993BA001ED31C /* DDTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTypes.h; sourceTree = "<group>"; };
+		B5CA69EA15A993BA001ED31C /* DDTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTypes.m; sourceTree = "<group>"; };
+		B5CA69EB15A993BA001ED31C /* NSString+DDMathParsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDMathParsing.h"; sourceTree = "<group>"; };
+		B5CA69EC15A993BA001ED31C /* NSString+DDMathParsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DDMathParsing.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5CA698E15A93761001ED31C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55EDB5615B27273009CFADA /* QuartzCore.framework in Frameworks */,
+				B5CA699615A93761001ED31C /* UIKit.framework in Frameworks */,
+				B5CA699815A93761001ED31C /* Foundation.framework in Frameworks */,
+				B5CA699A15A93761001ED31C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5CA698615A93761001ED31C = {
+			isa = PBXGroup;
+			children = (
+				B55EDB5515B27273009CFADA /* QuartzCore.framework */,
+				B5CA699B15A93761001ED31C /* MathHackFour */,
+				B5CA699415A93761001ED31C /* Frameworks */,
+				B5CA699215A93761001ED31C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5CA699215A93761001ED31C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5CA699115A93761001ED31C /* MathHackFour.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5CA699415A93761001ED31C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5CA699515A93761001ED31C /* UIKit.framework */,
+				B5CA699715A93761001ED31C /* Foundation.framework */,
+				B5CA699915A93761001ED31C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5CA699B15A93761001ED31C /* MathHackFour */ = {
+			isa = PBXGroup;
+			children = (
+				B55EDBDC15BFBA33009CFADA /* UIView+LayerEffects.h */,
+				B55EDBDD15BFBA33009CFADA /* UIView+LayerEffects.m */,
+				B55EDBD815BFB83F009CFADA /* UIGlossyButton.h */,
+				B55EDBD915BFB83F009CFADA /* UIGlossyButton.m */,
+				B5CA6A0A15AED3FA001ED31C /* Images */,
+				B5CA69BF15A993BA001ED31C /* DDMathParser */,
+				B5CA69A415A93761001ED31C /* AppDelegate.h */,
+				B5CA69A515A93761001ED31C /* AppDelegate.m */,
+				B5CA69BA15A9648B001ED31C /* OperationsViewController.m */,
+				B5CA69B915A9648B001ED31C /* OperationsViewController.h */,
+				B5CA69BC15A96D40001ED31C /* ProblemGenerator.h */,
+				B5CA69BD15A96D40001ED31C /* ProblemGenerator.m */,
+				B5CA69A715A93761001ED31C /* MainStoryboard.storyboard */,
+				B55EDB5115B271F0009CFADA /* HintView.h */,
+				B55EDB5215B271F0009CFADA /* HintView.m */,
+				B5CA69B215A938AF001ED31C /* MenuViewController.h */,
+				B5CA69B315A938AF001ED31C /* MenuViewController.m */,
+				B5CA69AA15A93761001ED31C /* ViewController.h */,
+				B55EDB5715B43790009CFADA /* Operations.plist */,
+				B5CA69AB15A93761001ED31C /* ViewController.m */,
+				B5CA699C15A93761001ED31C /* Supporting Files */,
+			);
+			path = MathHackFour;
+			sourceTree = "<group>";
+		};
+		B5CA699C15A93761001ED31C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5CA699D15A93761001ED31C /* MathHackFour-Info.plist */,
+				B5CA699E15A93761001ED31C /* InfoPlist.strings */,
+				B5CA69A115A93761001ED31C /* main.m */,
+				B5CA69A315A93761001ED31C /* MathHackFour-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5CA69BF15A993BA001ED31C /* DDMathParser */ = {
+			isa = PBXGroup;
+			children = (
+				B5CA69C015A993BA001ED31C /* _DDFunctionContainer.h */,
+				B5CA69C115A993BA001ED31C /* _DDFunctionContainer.m */,
+				B5CA69C215A993BA001ED31C /* _DDFunctionExpression.h */,
+				B5CA69C315A993BA001ED31C /* _DDFunctionExpression.m */,
+				B5CA69C415A993BA001ED31C /* _DDFunctionTerm.h */,
+				B5CA69C515A993BA001ED31C /* _DDFunctionTerm.m */,
+				B5CA69C615A993BA001ED31C /* _DDFunctionUtilities.h */,
+				B5CA69C715A993BA001ED31C /* _DDFunctionUtilities.m */,
+				B5CA69C815A993BA001ED31C /* _DDGroupTerm.h */,
+				B5CA69C915A993BA001ED31C /* _DDGroupTerm.m */,
+				B5CA69CA15A993BA001ED31C /* _DDNumberExpression.h */,
+				B5CA69CB15A993BA001ED31C /* _DDNumberExpression.m */,
+				B5CA69CC15A993BA001ED31C /* _DDNumberTerm.h */,
+				B5CA69CD15A993BA001ED31C /* _DDNumberTerm.m */,
+				B5CA69CE15A993BA001ED31C /* _DDOperatorInfo.h */,
+				B5CA69CF15A993BA001ED31C /* _DDOperatorInfo.m */,
+				B5CA69D015A993BA001ED31C /* _DDOperatorTerm.h */,
+				B5CA69D115A993BA001ED31C /* _DDOperatorTerm.m */,
+				B5CA69D215A993BA001ED31C /* _DDParserTerm.h */,
+				B5CA69D315A993BA001ED31C /* _DDParserTerm.m */,
+				B5CA69D415A993BA001ED31C /* _DDRewriteRule.h */,
+				B5CA69D515A993BA001ED31C /* _DDRewriteRule.m */,
+				B5CA69D615A993BA001ED31C /* _DDVariableExpression.h */,
+				B5CA69D715A993BA001ED31C /* _DDVariableExpression.m */,
+				B5CA69D815A993BA001ED31C /* _DDVariableTerm.h */,
+				B5CA69D915A993BA001ED31C /* _DDVariableTerm.m */,
+				B5CA69DA15A993BA001ED31C /* DDExpression.h */,
+				B5CA69DB15A993BA001ED31C /* DDExpression.m */,
+				B5CA69DC15A993BA001ED31C /* DDMathEvaluator+Private.h */,
+				B5CA69DD15A993BA001ED31C /* DDMathEvaluator.h */,
+				B5CA69DE15A993BA001ED31C /* DDMathEvaluator.m */,
+				B5CA69DF15A993BA001ED31C /* DDMathParser.h */,
+				B5CA69E015A993BA001ED31C /* DDMathParserMacros.h */,
+				B5CA69E115A993BA001ED31C /* DDMathStringToken.h */,
+				B5CA69E215A993BA001ED31C /* DDMathStringToken.m */,
+				B5CA69E315A993BA001ED31C /* DDMathStringTokenizer.h */,
+				B5CA69E415A993BA001ED31C /* DDMathStringTokenizer.m */,
+				B5CA69E515A993BA001ED31C /* DDParser.h */,
+				B5CA69E615A993BA001ED31C /* DDParser.m */,
+				B5CA69E715A993BA001ED31C /* DDParserTypes.h */,
+				B5CA69E815A993BA001ED31C /* DDParserTypes.m */,
+				B5CA69E915A993BA001ED31C /* DDTypes.h */,
+				B5CA69EA15A993BA001ED31C /* DDTypes.m */,
+				B5CA69EB15A993BA001ED31C /* NSString+DDMathParsing.h */,
+				B5CA69EC15A993BA001ED31C /* NSString+DDMathParsing.m */,
+			);
+			path = DDMathParser;
+			sourceTree = "<group>";
+		};
+		B5CA6A0A15AED3FA001ED31C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B55EDB6015B80E5C009CFADA /* button2.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5CA699015A93761001ED31C /* MathHackFour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5CA69AF15A93761001ED31C /* Build configuration list for PBXNativeTarget "MathHackFour" */;
+			buildPhases = (
+				B5CA698D15A93761001ED31C /* Sources */,
+				B5CA698E15A93761001ED31C /* Frameworks */,
+				B5CA698F15A93761001ED31C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathHackFour;
+			productName = MathHackFour;
+			productReference = B5CA699115A93761001ED31C /* MathHackFour.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5CA698815A93761001ED31C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B5CA698B15A93761001ED31C /* Build configuration list for PBXProject "MathHackFour" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5CA698615A93761001ED31C;
+			productRefGroup = B5CA699215A93761001ED31C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5CA699015A93761001ED31C /* MathHackFour */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5CA698F15A93761001ED31C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CA69A015A93761001ED31C /* InfoPlist.strings in Resources */,
+				B5CA69A915A93761001ED31C /* MainStoryboard.storyboard in Resources */,
+				B55EDB5815B43790009CFADA /* Operations.plist in Resources */,
+				B55EDB6115B80E5C009CFADA /* button2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5CA698D15A93761001ED31C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CA69A215A93761001ED31C /* main.m in Sources */,
+				B5CA69A615A93761001ED31C /* AppDelegate.m in Sources */,
+				B5CA69AC15A93761001ED31C /* ViewController.m in Sources */,
+				B5CA69B415A938AF001ED31C /* MenuViewController.m in Sources */,
+				B5CA69BB15A9648B001ED31C /* OperationsViewController.m in Sources */,
+				B5CA69BE15A96D40001ED31C /* ProblemGenerator.m in Sources */,
+				B5CA69ED15A993BA001ED31C /* _DDFunctionContainer.m in Sources */,
+				B5CA69EE15A993BA001ED31C /* _DDFunctionExpression.m in Sources */,
+				B5CA69EF15A993BA001ED31C /* _DDFunctionTerm.m in Sources */,
+				B5CA69F015A993BA001ED31C /* _DDFunctionUtilities.m in Sources */,
+				B5CA69F115A993BA001ED31C /* _DDGroupTerm.m in Sources */,
+				B5CA69F215A993BA001ED31C /* _DDNumberExpression.m in Sources */,
+				B5CA69F315A993BA001ED31C /* _DDNumberTerm.m in Sources */,
+				B5CA69F415A993BA001ED31C /* _DDOperatorInfo.m in Sources */,
+				B5CA69F515A993BA001ED31C /* _DDOperatorTerm.m in Sources */,
+				B5CA69F615A993BA001ED31C /* _DDParserTerm.m in Sources */,
+				B5CA69F715A993BA001ED31C /* _DDRewriteRule.m in Sources */,
+				B5CA69F815A993BA001ED31C /* _DDVariableExpression.m in Sources */,
+				B5CA69F915A993BA001ED31C /* _DDVariableTerm.m in Sources */,
+				B5CA69FA15A993BA001ED31C /* DDExpression.m in Sources */,
+				B5CA69FB15A993BA001ED31C /* DDMathEvaluator.m in Sources */,
+				B5CA69FC15A993BA001ED31C /* DDMathStringToken.m in Sources */,
+				B5CA69FD15A993BA001ED31C /* DDMathStringTokenizer.m in Sources */,
+				B5CA69FE15A993BA001ED31C /* DDParser.m in Sources */,
+				B5CA69FF15A993BA001ED31C /* DDParserTypes.m in Sources */,
+				B5CA6A0015A993BA001ED31C /* DDTypes.m in Sources */,
+				B5CA6A0115A993BA001ED31C /* NSString+DDMathParsing.m in Sources */,
+				B55EDB5315B271F0009CFADA /* HintView.m in Sources */,
+				B55EDBDA15BFB83F009CFADA /* UIGlossyButton.m in Sources */,
+				B55EDBDE15BFBA33009CFADA /* UIView+LayerEffects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5CA699E15A93761001ED31C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5CA699F15A93761001ED31C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B5CA69A715A93761001ED31C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5CA69A815A93761001ED31C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5CA69AD15A93761001ED31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5CA69AE15A93761001ED31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5CA69B015A93761001ED31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MathHackFour/MathHackFour-Prefix.pch";
+				INFOPLIST_FILE = "MathHackFour/MathHackFour-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5CA69B115A93761001ED31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MathHackFour/MathHackFour-Prefix.pch";
+				INFOPLIST_FILE = "MathHackFour/MathHackFour-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5CA698B15A93761001ED31C /* Build configuration list for PBXProject "MathHackFour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5CA69AD15A93761001ED31C /* Debug */,
+				B5CA69AE15A93761001ED31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5CA69AF15A93761001ED31C /* Build configuration list for PBXNativeTarget "MathHackFour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5CA69B015A93761001ED31C /* Debug */,
+				B5CA69B115A93761001ED31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5CA698815A93761001ED31C /* Project object */;
+}
